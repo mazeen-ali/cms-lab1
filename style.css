@@ -1,0 +1,79 @@
+.header{
+    background-color: black;
+    height: 110px;
+    overflow: hidden;
+
+}
+.logo img{
+    float: right;
+    margin-top: -80px;
+}
+.navbar ul{
+    margin-top: 50px;
+
+}
+.navbar ul li{
+    display: inline;
+    color: white;
+    padding: 40px;
+
+
+}
+.navbar ul li:hover{
+    background-color: brown;
+}
+.navbar ul li a{
+    color: white;
+}
+.content{
+
+display: flex;
+
+}
+
+.left{
+width: 50%;
+}
+form{
+    border: 3px rgb(88, 236, 179) solid;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color:#e1f5e485;
+}
+form h1{
+    color: rgb(4, 107, 76);
+}
+form h4{
+    color:  rgb(4, 107, 76);
+    border: 3px rgb(88, 236, 179) dotted;
+    background-color: rgb(175, 238, 217);
+
+}
+.astric{
+    color: red;
+}
+table tr{
+    padding: 40px;
+    padding-bottom: 20px;  
+}
+table th  {
+  
+min-width: 20%;
+  padding: auto;
+  padding-bottom: 20px;  
+    color: rgb(4, 107, 76);
+    background-color: rgb(175, 238, 217);
+}
+
+table th label{
+    width: 100px;
+font-size: 14px;
+}
+table td{
+    margin-left: 20px;
+}
+.check,
+.btns{
+text-align: center;
+margin-bottom: 20px;}

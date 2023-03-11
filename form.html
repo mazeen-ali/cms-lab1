@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>register</title>
+
+</head>
+<body>
+    <div class="header">
+     
+        <div class="navbar">
+            <ul>
+                     <li><a href="./index.html">homepage</a></li>
+                <li><a href="roadmap.html">roadmap</a></li>
+                <li><a href="form.html">registration form</a></li>
+                <li><a href="https://www.iti.gov.eg/">contact</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="img/logo.png" alt="itilogo" width="300px" height="100px">
+        </div>
+        </div>
+        <form>
+        <h1>register-create account</h1>
+        <h4>field marked with <span class="astric">*</span> are compulsory fields</h3>
+        <table>
+            <tr>
+                <th>
+                    <span class="astric">*</span>     <label>your name</label>
+                </th>
+                <td>
+                   <input type="text" name="name" size="50">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <span class="astric">*</span>       <label>your email</label>
+                </th>
+                <td>
+                   <input type="email" name="email" size="50">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                  <label>your phone</label>
+                </th>
+                <td>
+                    <label style="display: block;"> country code  -   city code   -   phone number</label> 
+                    <input type="text" name="country" size="6"> -
+                   <input type="text" name="city" size="4"> -
+                   <input type="text" name="phone" size="16"> 
+                </td>
+            </tr>
+            <tr>
+                <th>
+                  <label>your mobile</label>
+                </th>
+                <td>
+                   <input type="text" name="mobile" size="50">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <span class="astric">*</span>          <label>your postal address</label>
+                </th>
+                <td>
+                   <textarea  name="postaladdress" size="50"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <span class="astric">*</span>        <label for="country">Choose a country:</label>
+                </th>
+                <td>
+                    <select id="country" name="country" > 
+                      <option selected disabled>------select one------</option>
+                      <option value="egypt">egypt</option>
+                      <option value="usa">usa</option>
+                      <option value="lebanon">lebanon</option>
+                      <option value="palastine">palastine</option>
+                    </select>  
+                              </td>
+            </tr>
+            <tr>
+                <th>
+                    <span class="astric">*</span>    <label>password</label>
+                </th>
+                <td>
+                   <input type="password" name="password" size="30">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <span class="astric">*</span>       <label>re enter password</label>
+                </th>
+                <td>
+                   <input type="password" name="password" size="30">
+                </td>
+            </tr>
+            
+        </table>
+        <div class="check">
+            <input type="checkbox" id="ok" name="ok" value="ok">
+            <label> I accept the <a href="homepage.html">terms of use</a> </label>
+        </div>
+   <div class="btns">
+    <input type="button" onclick="alert('Hello World!')" value="continue >>">
+    <input type="button" onclick="alert('Hello World!')" value="reset">
+   </div>
+
+        </form>
+</body>
+</html>
