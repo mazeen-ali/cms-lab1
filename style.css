@@ -24,6 +24,7 @@
 }
 .navbar ul li a{
     color: white;
+    text-decoration: none;
 }
 .content{
 
