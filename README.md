@@ -2,4 +2,5 @@
 #### this is git lab2
 
 [Documentation](https://linktodocumentation)
-g
+![cms](https://github.com/mazeen-ali/cms-lab1/blob/main/img/indexPage.jpg)
+
