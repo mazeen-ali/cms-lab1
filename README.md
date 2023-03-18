@@ -4,3 +4,6 @@
 [Documentation](https://linktodocumentation)
 ![cms](https://github.com/mazeen-ali/cms-lab1/blob/main/img/indexPage.jpg)
 
+-html
+-mysql
+-php
