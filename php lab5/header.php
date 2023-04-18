@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/all.min.css">
 
 
-    <link rel="stylesheet" href="css/styl.css">
+    <link rel="stylesheet" href="css/front.css">
 
 
 </head>
